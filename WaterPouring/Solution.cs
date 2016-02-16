@@ -39,7 +39,7 @@ namespace WaterPouring
 			while (current != null)
 			{
 				yield return current;
-				current = current.BeforeMove;
+				current = current.Previous;
 			}
 		} 
 	}

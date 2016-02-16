@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaterPouring", "WaterPourin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaterPouring.Tests", "WaterPouring.Tests\WaterPouring.Tests.csproj", "{5E3AFD43-040C-4E40-A799-5B7FFC6A34AD}"
 EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "WaterPouringService", "WaterPouringService\WaterPouringService.xproj", "{323B6786-8D12-4B77-BEC9-D3749F9C41EA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{5E3AFD43-040C-4E40-A799-5B7FFC6A34AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E3AFD43-040C-4E40-A799-5B7FFC6A34AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E3AFD43-040C-4E40-A799-5B7FFC6A34AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{323B6786-8D12-4B77-BEC9-D3749F9C41EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{323B6786-8D12-4B77-BEC9-D3749F9C41EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{323B6786-8D12-4B77-BEC9-D3749F9C41EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{323B6786-8D12-4B77-BEC9-D3749F9C41EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -12,7 +12,7 @@ namespace WaterPouring
 
 		public IReadOnlyList<int> Capacities { get; }
 		public IReadOnlyList<int> State { get; }
-		public Pouring BeforeMove { get; }
+		public Pouring Previous { get; }
 		public IMove Move { get; }
 
 		public Pouring(params int[] capacities) : this(
@@ -23,12 +23,12 @@ namespace WaterPouring
 		{
 		}
 
-		internal Pouring(IReadOnlyList<int> capacities, IReadOnlyList<int> state, Pouring beforeMove, IMove move)
+		internal Pouring(IReadOnlyList<int> capacities, IReadOnlyList<int> state, Pouring previous, IMove move)
 		{
 			Capacities = capacities;
 			State = state;
 			Move = move;
-			BeforeMove = beforeMove;
+			Previous = previous;
 		}
 
 		public override bool Equals(object obj)

@@ -4,7 +4,12 @@ using System.Linq;
 
 namespace WaterPouring
 {
-	public class Solver
+	public interface ISolver
+	{
+		IEnumerable<Solution> SolutionSequence(int value, params int[] capacities);
+	}
+
+	public class Solver : ISolver
 	{
 		private readonly IPouringGeneratorFactory pouringGeneratorFactory;
 
