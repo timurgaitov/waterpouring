@@ -1,0 +1,12 @@
+{
+  "version": "1.0.0-*",
+  "frameworks": {
+    "net45": {
+      "wrappedProject": "../../WaterPouring/WaterPouring.csproj",
+      "bin": {
+        "assembly": "../../WaterPouring/obj/{configuration}/WaterPouring.dll",
+        "pdb": "../../WaterPouring/obj/{configuration}/WaterPouring.pdb"
+      }
+    }
+  }
+}
